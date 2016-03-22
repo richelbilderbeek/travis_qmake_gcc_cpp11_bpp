@@ -11,4 +11,4 @@ QMAKE_CC = gcc-5
 QMAKE_CXXFLAGS += -std=c++11
 
 # Bio++
-LIBS += -lbpp-seq -lbpp-core
+LIBS += -lbpp-core -lbpp-seq -lbpp-phyl -lbpp-popgen -lbpp-qt -lbpp-raa
