@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Bpp/Seq/Alphabet.all>
+#include <Bpp/Seq/Alphabet/AlphabetTools.h>
 #include <Bpp/Seq/Sequence.h>
 
 bpp::BasicSequence get_sequence() noexcept

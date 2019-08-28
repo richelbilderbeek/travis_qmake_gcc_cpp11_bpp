@@ -9,5 +9,5 @@ install:
 
 script: 
   - qmake
-  - make
+  - make --silent
   - ./travis_qmake_gcc_cpp11_bpp
